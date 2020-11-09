@@ -1,54 +1,66 @@
-import React from 'react'
+import { ServerStyleSheets } from '@material-ui/styles'
 import Document, {
-  DocumentInitialProps,
-  DocumentContext,
   Html,
   Head,
   Main,
-  NextScript
+  NextScript,
+  DocumentContext
 } from 'next/document'
-import { ServerStyleSheet } from 'styled-components'
+import React from 'react'
+import flush from 'styled-jsx/server'
+import { AppContext } from '../components/AppContext'
+import { MuiTheme } from '../components/MuiTheme'
 
-export default class MyDocument extends Document {
-  static async getInitialProps(
-    ctx: DocumentContext
-  ): Promise<DocumentInitialProps> {
-    const sheet = new ServerStyleSheet()
+type Props = {
+  pageProps: any
+}
+
+/**
+ * @see https://github.com/mui-org/material-ui/blob/master/examples/nextjs-with-typescript/pages/_document.tsx
+ */
+class MyDocument extends Document<Props> {
+  static getInitialProps = async (ctx: DocumentContext): Promise<any> => {
+    // Render app and page and get the context of the page with collected side effects.
+    const sheets = new ServerStyleSheets()
+
     const originalRenderPage = ctx.renderPage
 
-    try {
-      ctx.renderPage = () =>
-        originalRenderPage({
-          enhanceApp: App => props => sheet.collectStyles(<App {...props} />)
-        })
+    ctx.renderPage = () =>
+      originalRenderPage({
+        enhanceApp: App => props => sheets.collect(<App {...props} />),
+        // useful for wrapping in a per-page basis
+        enhanceComponent: Component => Component
+      })
 
-      const initialProps = await Document.getInitialProps(ctx)
-      return {
-        ...initialProps,
-        styles: (
-          <>
-            {initialProps.styles}
-            {sheet.getStyleElement()}
-          </>
-        )
-      }
-    } finally {
-      sheet.seal()
+    const initialProps = await Document.getInitialProps(ctx)
+
+    // const pageProps = ctx.store.getState()
+    return {
+      ...initialProps,
+      // pageProps,
+      // Styles fragment is rendered after the app and page rendering finish.
+      styles: (
+        <>
+          {initialProps.styles}
+          {sheets.getStyleElement()}
+        </>
+      )
     }
   }
 
-  render(): JSX.Element {
+  render() {
+    // const { pageProps } = this.props
+    // const page = pageProps.page.selectedPage
+
     return (
-      <Html lang="pt">
+      <Html lang="en">
         <Head>
-          <meta charSet="utf-8" />
-
           <link
-            href="https://fonts.googleapis.com/css?family=Roboto:400,500,700"
             rel="stylesheet"
+            href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+            integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+            crossOrigin="anonymous"
           />
-
-          <link rel="icon" href="/favicon.ico" />
         </Head>
         <body>
           <Main />
@@ -58,3 +70,5 @@ export default class MyDocument extends Document {
     )
   }
 }
+
+export default MyDocument
