@@ -13,6 +13,7 @@ import { GridContainer, GridItem } from './../components/Grid'
 
 import { container } from '../../assets/ts/nextjs-material-kit'
 import { SectionBasics } from './../pages-sections/Components-Sections/SectionBasics'
+import { SectionProgram } from './../pages-sections/Components-Sections/SectionProgram'
 
 const useStyles = makeStyles((_: Theme) =>
   createStyles({
@@ -34,13 +35,13 @@ const useStyles = makeStyles((_: Theme) =>
       textAlign: 'left'
     },
     title: {
-      fontSize: '2.8rem',
+      fontSize: '2.0rem',
       fontWeight: 600,
       display: 'inline-block',
       position: 'relative'
     },
     subtitle: {
-      fontSize: '1.0rem',
+      fontSize: '0.8rem',
       maxWidth: '800px',
       margin: '10px 0 0'
     },
@@ -107,6 +108,7 @@ export default function Home({ org, props }) {
         </Parallax>
         <div className={classNames(classes.main, classes.mainRaised)}>
           <SectionBasics />
+          <SectionProgram />
         </div>
       </main>
     </div>

@@ -23,7 +23,6 @@ import {
   container,
   title
 } from '../../../assets/ts/nextjs-material-kit'
-import imagesStyles from '../../../assets/ts/nextjs-material-kit/imagesStyles'
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -237,7 +236,18 @@ export const SectionBasics = function SectionBasics() {
     <div id="Elenco" className={classes.sections}>
       <div className={classes.container}>
         <div className={classes.title}>
-          <h2>O Nosso Elenco</h2>
+          <h2>Composição da Lista aos Órgãos Sociais da FMX</h2>
+        </div>
+
+        <div>
+          <p>
+            Grande parte dos membros que compõem, são sem duvida, alguns dos
+            mais experientes e individualidades dedicadas ao nosso desporto, e
+            outras personalidades estão indirectamente ligados ao xadrez mas
+            trazem conhecimentos e experiências de outros campos da vida social
+            e profissional, o que constitui uma combinação ideal de
+            Perspectivas, Conhecimento e Paixão.
+          </p>
         </div>
 
         <div id="images">
