@@ -115,25 +115,25 @@ export const SectionBasics = function SectionBasics() {
       name: 'XXXXX',
       position: 'Vice-Presidente para alta competição',
       area: 'DIRECÇÃO',
-      image: '/images/team/avatar.png'
+      image: '/images/team/gui2.png'
     },
     {
-      name: 'XXXXX',
+      name: 'Cidalia',
       position: 'Vice-presidente para massificação',
       area: 'DIRECÇÃO',
-      image: '/images/team/avatar.png'
+      image: '/images/team/cidalia2.png'
     },
     {
-      name: 'XXXXX',
+      name: 'Aldo Pinto',
       position: 'Secretário-geral',
       area: 'DIRECÇÃO',
-      image: '/images/team/avatar.png'
+      image: '/images/team/aldo1.png'
     },
     {
-      name: 'XXXXX',
+      name: 'Adilson Serrão',
       position: 'Tesoureiro',
       area: 'DIRECÇÃO',
-      image: '/images/team/avatar.png'
+      image: '/images/team/adilson.png'
     },
     {
       name: 'XXXXX',
@@ -154,7 +154,7 @@ export const SectionBasics = function SectionBasics() {
       name: 'Rafael Chande',
       position: 'Presidente',
       area: 'Assembleia',
-      image: '/images/team/botao1.jpg'
+      image: '/images/team/chande1.png'
     },
     {
       name: 'Adriano Chauque',
@@ -166,6 +166,69 @@ export const SectionBasics = function SectionBasics() {
       name: 'Felicidade Matusse',
       position: 'Secretário',
       area: 'Assembleia',
+      image: '/images/team/avatar.png'
+    }
+  ]
+
+  const fmxTeamTecnico: team[] = [
+    {
+      name: 'XXXX',
+      position: 'Presidente',
+      area: 'CONSELHO JURISDICIONAL',
+      image: '/images/team/soca1.png'
+    },
+    {
+      name: 'XXXXX',
+      position: 'Vice-presidente',
+      area: 'CONSELHO JURISDICIONAL',
+      image: '/images/team/avatar.png'
+    },
+    {
+      name: 'XXXX',
+      position: 'Secretário',
+      area: 'CONSELHO JURISDICIONAL',
+      image: '/images/team/avatar.png'
+    }
+  ]
+
+  const fmxTeamJuridicional: team[] = [
+    {
+      name: 'XXXX',
+      position: 'Presidente',
+      area: 'CONSELHO JURISDICIONAL',
+      image: '/images/team/soca1.png'
+    },
+    {
+      name: 'XXXXX',
+      position: 'Vice-presidente',
+      area: 'CONSELHO JURISDICIONAL',
+      image: '/images/team/avatar.png'
+    },
+    {
+      name: 'XXXX',
+      position: 'Secretário',
+      area: 'CONSELHO JURISDICIONAL',
+      image: '/images/team/avatar.png'
+    }
+  ]
+
+  const fmxTeamFiscal: team[] = [
+    {
+      name: 'XXXX',
+      position: 'Presidente',
+      area: 'CONSELHO Fiscal',
+      image: '/images/team/soca1.png'
+    },
+    {
+      name: 'XXXXX',
+      position: 'Vice-presidente',
+      area: 'CONSELHO Fiscal',
+      image: '/images/team/avatar.png'
+    },
+    {
+      name: 'XXXX',
+      position: 'Secretário',
+      area: 'CONSELHO Fiscal',
       image: '/images/team/avatar.png'
     }
   ]
@@ -206,7 +269,64 @@ export const SectionBasics = function SectionBasics() {
                 <img
                   src={row.image}
                   alt="..."
-                  className={classes.imgRounded + ' ' + classes.imgFluid}
+                  className={classes.imgRoundedCircle + ' ' + classes.imgFluid}
+                />
+                <h5>{row.name}</h5>
+              </GridItem>
+            ))}
+          </GridContainer>
+          <GridContainer />
+
+          <div className={classes.title}>
+            <h2>Conselho Tecnico</h2>
+          </div>
+          <br />
+          <GridContainer>
+            {fmxTeamTecnico.map(row => (
+              <GridItem key={row.name} xs={12} sm={2}>
+                <h4>{row.position}</h4>
+                <img
+                  src={row.image}
+                  alt="..."
+                  className={classes.imgRoundedCircle + ' ' + classes.imgFluid}
+                />
+                <h5>{row.name}</h5>
+              </GridItem>
+            ))}
+          </GridContainer>
+          <GridContainer />
+
+          <div className={classes.title}>
+            <h2>Conselho Jurisdicional </h2>
+          </div>
+          <br />
+          <GridContainer>
+            {fmxTeamJuridicional.map(row => (
+              <GridItem key={row.name} xs={12} sm={2}>
+                <h4>{row.position}</h4>
+                <img
+                  src={row.image}
+                  alt="..."
+                  className={classes.imgRoundedCircle + ' ' + classes.imgFluid}
+                />
+                <h5>{row.name}</h5>
+              </GridItem>
+            ))}
+          </GridContainer>
+          <GridContainer />
+
+          <div className={classes.title}>
+            <h2>Conselho Fiscal </h2>
+          </div>
+          <br />
+          <GridContainer>
+            {fmxTeamFiscal.map(row => (
+              <GridItem key={row.name} xs={12} sm={2}>
+                <h4>{row.position}</h4>
+                <img
+                  src={row.image}
+                  alt="..."
+                  className={classes.imgRoundedCircle + ' ' + classes.imgFluid}
                 />
                 <h5>{row.name}</h5>
               </GridItem>
