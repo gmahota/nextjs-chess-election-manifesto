@@ -65,6 +65,17 @@ const useStyles = makeStyles((_: Theme) =>
     },
     textCenter: {
       textAlign: 'center'
+    },
+    img: {
+      position: 'relative',
+      width: '50%',
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'bottom'
+    },
+    laddingText: {
+      display: 'flex',
+      flexDirection: 'column'
     }
   })
 )
@@ -93,14 +104,16 @@ export default function Home({ org, props }) {
           <div className={classes.container}>
             <GridContainer>
               <GridItem>
-                <div className={classes.brand}>
-                  <h1 className={classes.title}>
-                    LISTA LIDERADA POR MILTON BOTÃO.
-                  </h1>
-                  <h3 className={classes.subtitle}>
-                    CAMINHANDO JUNTOS EM PROL DO DESENVOVIMENTO DO XADREZ
-                    NACIONAL.
-                  </h3>
+                <div className={classes.laddingText}>
+                  <div className={classes.brand}>
+                    <h1 className={classes.title}>
+                      LISTA LIDERADA POR MILTON BOTÃO.
+                    </h1>
+                    <h3 className={classes.subtitle}>
+                      CAMINHANDO JUNTOS EM PROL DO DESENVOVIMENTO DO XADREZ
+                      NACIONAL.
+                    </h3>
+                  </div>
                 </div>
               </GridItem>
             </GridContainer>

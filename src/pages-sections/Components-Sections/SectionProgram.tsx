@@ -108,11 +108,11 @@ export const SectionProgram = function SectionProgram() {
       <div className={classes.container}>
         <div id="navigation-pills">
           <div className={classes.title}>
-            <h2>Programa de Actividades</h2>
+            <h1>Programa de Actividades</h1>
           </div>
           <div className={classes.title}>
             <Typography variant="subtitle1">
-              O nosso programa para o mandato do 2020-2024 sustenta-se em cinco
+              O nosso programa para o mandato do 2020/2024 sustenta-se em cinco
               pilares, nomeadamente:
             </Typography>
           </div>
@@ -199,13 +199,14 @@ export const SectionProgram = function SectionProgram() {
               </Typography>
 
               <Typography variant="body1" className={classes.body}>
+                <p>Criação de representantes da Federação por Região</p>
                 <p>
                   Revê-se de grande importância promover as nossas associações
                   de legalidade institucional e autonomia financeira, pois elas
                   são o garante de uma maior massificação e divulgação da
                   modalidade, mas para isso é necessário que exista proximidade
                   para identificar problemas e responsavelmente adequar medidas
-                  para solucionar tais carências.{' '}
+                  para solucionar tais carências.
                 </p>
                 <p>
                   No primeiro ano do nosso mandato pretendemos prestar todo o
