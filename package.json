@@ -12,6 +12,7 @@
     "@material-ui/icons": "^4.9.1",
     "@material-ui/lab": "^4.0.0-alpha.56",
     "axios": "^0.21.0",
+    "framer-motion": "^2.9.4",
     "moment": "^2.29.1",
     "moment-timezone": "^0.5.31",
     "next": "10.0.0",

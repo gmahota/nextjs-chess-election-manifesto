@@ -24,6 +24,8 @@ import {
   title
 } from '../../../assets/ts/nextjs-material-kit'
 
+import { motion } from 'framer-motion'
+
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     sections: {
@@ -108,7 +110,7 @@ export const SectionBasics = function SectionBasics() {
       name: 'Milton Botão',
       position: 'Presidente',
       area: 'DIRECÇÃO',
-      image: '/images/team/botao1.jpg'
+      image: '/images/team/Milton1.jpg'
     },
     {
       name: 'Roberto Soca',
@@ -296,11 +298,20 @@ export const SectionBasics = function SectionBasics() {
             {fmxTeamAssembleia.map(row => (
               <GridItem key={row.name} xs={12} sm={2}>
                 <h4>{row.position}</h4>
-                <img
-                  src={row.image}
-                  alt="..."
-                  className={classes.imgRoundedCircle + ' ' + classes.imgFluid}
-                />
+                <motion.div
+                  animate={{
+                    scale: [1, 2, 2, 1, 1],
+                    borderRadius: ['20%', '20%', '50%', '50%', '20%']
+                  }}
+                >
+                  <img
+                    src={row.image}
+                    alt="..."
+                    className={
+                      classes.imgRoundedCircle + ' ' + classes.imgFluid
+                    }
+                  />
+                </motion.div>
                 <h5>{row.name}</h5>
               </GridItem>
             ))}
@@ -313,11 +324,18 @@ export const SectionBasics = function SectionBasics() {
             {fmxTeamDirecao.map(row => (
               <GridItem key={row.name} xs={12} sm={2}>
                 <h4>{row.position}</h4>
+                <motion.div
+                  animate={{
+                    scale: [1, 2, 2, 1, 1],
+                    borderRadius: ['20%', '20%', '50%', '50%', '20%']
+                  }}
+                >
                 <img
                   src={row.image}
                   alt="..."
                   className={classes.imgRoundedCircle + ' ' + classes.imgFluid}
                 />
+                </motion.div>
                 <h5>{row.name}</h5>
               </GridItem>
             ))}
@@ -332,11 +350,18 @@ export const SectionBasics = function SectionBasics() {
             {fmxTeamTecnico.map(row => (
               <GridItem key={row.name} xs={12} sm={2}>
                 <h4>{row.position}</h4>
+                <motion.div
+                  animate={{
+                    scale: [1, 2, 2, 1, 1],
+                    borderRadius: ['20%', '20%', '50%', '50%', '20%']
+                  }}
+                >
                 <img
                   src={row.image}
                   alt="..."
                   className={classes.imgRoundedCircle + ' ' + classes.imgFluid}
                 />
+                </motion.div>
                 <h5>{row.name}</h5>
               </GridItem>
             ))}
@@ -351,11 +376,18 @@ export const SectionBasics = function SectionBasics() {
             {fmxTeamJuridicional.map(row => (
               <GridItem key={row.name} xs={12} sm={2}>
                 <h4>{row.position}</h4>
+                <motion.div
+                  animate={{
+                    scale: [1, 2, 2, 1, 1],
+                    borderRadius: ['20%', '20%', '50%', '50%', '20%']
+                  }}
+                >
                 <img
                   src={row.image}
                   alt="..."
                   className={classes.imgRoundedCircle + ' ' + classes.imgFluid}
                 />
+                </motion.div>
                 <h5>{row.name}</h5>
               </GridItem>
             ))}
@@ -370,11 +402,18 @@ export const SectionBasics = function SectionBasics() {
             {fmxTeamFiscal.map(row => (
               <GridItem key={row.name} xs={12} sm={2}>
                 <h4>{row.position}</h4>
+                <motion.div
+                  animate={{
+                    scale: [1, 2, 2, 1, 1],
+                    borderRadius: ['20%', '20%', '50%', '50%', '20%']
+                  }}
+                >
                 <img
                   src={row.image}
                   alt="..."
                   className={classes.imgRoundedCircle + ' ' + classes.imgFluid}
                 />
+                </motion.div>
                 <h5>{row.name}</h5>
               </GridItem>
             ))}
