@@ -111,16 +111,16 @@ export const SectionBasics = function SectionBasics() {
       image: '/images/team/botao1.jpg'
     },
     {
-      name: 'XXXXX',
-      position: 'Vice-Presidente para alta competição',
+      name: 'Roberto Soca',
+      position: '1º Vice-Presidente',
       area: 'DIRECÇÃO',
-      image: '/images/team/gui2.png'
+      image: '/images/team/soca1.png'
     },
     {
-      name: 'Cidalia',
-      position: 'Vice-presidente para massificação',
+      name: 'Guimarães Mahota Jr.',
+      position: '2 ºVice-presidente',
       area: 'DIRECÇÃO',
-      image: '/images/team/cidalia2.png'
+      image: '/images/team/gui2.png'
     },
     {
       name: 'Aldo Pinto',
@@ -128,20 +128,21 @@ export const SectionBasics = function SectionBasics() {
       area: 'DIRECÇÃO',
       image: '/images/team/aldo1.png'
     },
+
     {
-      name: 'Adilson Serrão',
+      name: 'Cidália Mazembe',
       position: 'Tesoureiro',
       area: 'DIRECÇÃO',
-      image: '/images/team/adilson.png'
+      image: '/images/team/cidalia2.png'
     },
     {
-      name: 'XXXXX',
+      name: 'Silvério Bento',
       position: 'Suplente',
       area: 'DIRECÇÃO',
       image: '/images/team/avatar.png'
     },
     {
-      name: 'XXXXX',
+      name: 'Júlio Samiro',
       position: 'Suplente',
       area: 'DIRECÇÃO',
       image: '/images/team/avatar.png'
@@ -156,13 +157,13 @@ export const SectionBasics = function SectionBasics() {
       image: '/images/team/chande1.png'
     },
     {
-      name: 'Adriano Chauque',
+      name: 'Michell Nkanda',
       position: 'Vice-presidente',
       area: 'Assembleia',
       image: '/images/team/avatar.png'
     },
     {
-      name: 'Felicidade Matusse',
+      name: '',
       position: 'Secretário',
       area: 'Assembleia',
       image: '/images/team/avatar.png'
@@ -171,41 +172,65 @@ export const SectionBasics = function SectionBasics() {
 
   const fmxTeamTecnico: team[] = [
     {
-      name: 'XXXX',
+      name: 'Emilio Guambe',
       position: 'Presidente',
-      area: 'CONSELHO JURISDICIONAL',
-      image: '/images/team/soca1.png'
-    },
-    {
-      name: 'XXXXX',
-      position: 'Vice-presidente',
-      area: 'CONSELHO JURISDICIONAL',
+      area: 'CONSELHO Técnico',
       image: '/images/team/avatar.png'
     },
     {
-      name: 'XXXX',
+      name: 'Felizardo Massimbe',
+      position: 'Vice-presidente',
+      area: 'CONSELHO Técnico',
+      image: '/images/team/avatar.png'
+    },
+    {
+      name: 'Dionisio Mariamo',
       position: 'Secretário',
-      area: 'CONSELHO JURISDICIONAL',
+      area: 'CONSELHO Técnico',
+      image: '/images/team/Dionisio4.png'
+    },
+    {
+      name: 'Marciano Ombe',
+      position: 'Suplente',
+      area: 'CONSELHO Técnico',
+      image: '/images/team/avatar.png'
+    },
+    {
+      name: '',
+      position: 'Suplente',
+      area: 'CONSELHO Técnico',
       image: '/images/team/avatar.png'
     }
   ]
 
   const fmxTeamJuridicional: team[] = [
     {
-      name: 'XXXX',
+      name: 'José Lobato',
       position: 'Presidente',
       area: 'CONSELHO JURISDICIONAL',
-      image: '/images/team/soca1.png'
+      image: '/images/team/avatar.png'
     },
     {
-      name: 'XXXXX',
+      name: 'Margarido Sambo',
       position: 'Vice-presidente',
       area: 'CONSELHO JURISDICIONAL',
       image: '/images/team/avatar.png'
     },
     {
-      name: 'XXXX',
+      name: 'Napoleão Viola',
       position: 'Secretário',
+      area: 'CONSELHO JURISDICIONAL',
+      image: '/images/team/avatar.png'
+    },
+    {
+      name: 'Lúcia',
+      position: 'Suplente',
+      area: 'CONSELHO JURISDICIONAL',
+      image: '/images/team/avatar.png'
+    },
+    {
+      name: '',
+      position: 'Suplente',
       area: 'CONSELHO JURISDICIONAL',
       image: '/images/team/avatar.png'
     }
@@ -213,20 +238,32 @@ export const SectionBasics = function SectionBasics() {
 
   const fmxTeamFiscal: team[] = [
     {
-      name: 'XXXX',
+      name: 'Felicia Chipande',
       position: 'Presidente',
-      area: 'CONSELHO Fiscal',
-      image: '/images/team/soca1.png'
-    },
-    {
-      name: 'XXXXX',
-      position: 'Vice-presidente',
       area: 'CONSELHO Fiscal',
       image: '/images/team/avatar.png'
     },
     {
-      name: 'XXXX',
+      name: 'Adilson Serrão',
+      position: 'Vice-presidente',
+      area: 'CONSELHO Fiscal',
+      image: '/images/team/adilson.png'
+    },
+    {
+      name: 'José Machaieie',
       position: 'Secretário',
+      area: 'CONSELHO Fiscal',
+      image: '/images/team/avatar.png'
+    },
+    {
+      name: 'Mahomed Rafique',
+      position: 'Suplente',
+      area: 'CONSELHO Fiscal',
+      image: '/images/team/avatar.png'
+    },
+    {
+      name: '',
+      position: 'Suplente',
       area: 'CONSELHO Fiscal',
       image: '/images/team/avatar.png'
     }
