@@ -441,7 +441,7 @@ export const SectionProgram = function SectionProgram() {
               </Typography>
             </TabPanel>
             <TabPanel value={value} index={4}>
-              <Typography variant="h4" className={classes.h1}>
+              <Typography variant="h6" className={classes.h1}>
                 Administração participativa e transparente
               </Typography>
 
