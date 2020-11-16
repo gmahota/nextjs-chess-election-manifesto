@@ -187,7 +187,7 @@ export const SectionBasics = function SectionBasics() {
       name: 'Dionisio Mariamo',
       position: 'Secretário',
       area: 'CONSELHO Técnico',
-      image: '/images/team/Dionisio4.png'
+      image: '/images/team/dionisio4.png'
     },
     {
       name: 'Marciano Ombe',
@@ -262,7 +262,7 @@ export const SectionBasics = function SectionBasics() {
       image: '/images/team/avatar.png'
     },
     {
-      name: '',
+      name: 'Josefa Mahota',
       position: 'Suplente',
       area: 'CONSELHO Fiscal',
       image: '/images/team/avatar.png'
