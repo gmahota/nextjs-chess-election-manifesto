@@ -189,7 +189,7 @@ export const SectionBasics = function SectionBasics() {
       name: 'Dionisio Mariamo',
       position: 'Secretário',
       area: 'CONSELHO Técnico',
-      image: '/images/team/dionisio4.png'
+      image: '/images/team/avatar.png'
     },
     {
       name: 'Marciano Ombe',
@@ -198,11 +198,12 @@ export const SectionBasics = function SectionBasics() {
       image: '/images/team/avatar.png'
     },
     {
-      name: '',
+      name: 'Pedro Ventura',
       position: 'Suplente',
       area: 'CONSELHO Técnico',
       image: '/images/team/avatar.png'
     }
+
   ]
 
   const fmxTeamJuridicional: team[] = [
@@ -255,7 +256,7 @@ export const SectionBasics = function SectionBasics() {
       name: 'José Machaieie',
       position: 'Secretário',
       area: 'CONSELHO Fiscal',
-      image: '/images/team/avatar.png'
+      image: '/images/team/Machaieie4.png'
     },
     {
       name: 'Mahomed Rafique',
@@ -330,11 +331,12 @@ export const SectionBasics = function SectionBasics() {
                     borderRadius: ['20%', '20%', '50%', '50%', '20%']
                   }}
                 >
-                <img
-                  src={row.image}
-                  alt="..."
-                  className={classes.imgRoundedCircle + ' ' + classes.imgFluid}
-                />
+                  <img
+                    src={row.image}
+                    alt="..."
+                    className={
+                      classes.imgRoundedCircle + ' ' + classes.imgFluid
+                  />
                 </motion.div>
                 <h5>{row.name}</h5>
               </GridItem>
@@ -356,11 +358,12 @@ export const SectionBasics = function SectionBasics() {
                     borderRadius: ['20%', '20%', '50%', '50%', '20%']
                   }}
                 >
-                <img
-                  src={row.image}
-                  alt="..."
-                  className={classes.imgRoundedCircle + ' ' + classes.imgFluid}
-                />
+                  <img
+                    src={row.image}
+                    alt="..."
+                    className={
+                      classes.imgRoundedCircle + ' ' + classes.imgFluid
+                  />
                 </motion.div>
                 <h5>{row.name}</h5>
               </GridItem>
@@ -382,11 +385,12 @@ export const SectionBasics = function SectionBasics() {
                     borderRadius: ['20%', '20%', '50%', '50%', '20%']
                   }}
                 >
-                <img
-                  src={row.image}
-                  alt="..."
-                  className={classes.imgRoundedCircle + ' ' + classes.imgFluid}
-                />
+                  <img
+                    src={row.image}
+                    alt="..."
+                    className={
+                      classes.imgRoundedCircle + ' ' + classes.imgFluid
+                  />
                 </motion.div>
                 <h5>{row.name}</h5>
               </GridItem>
@@ -408,11 +412,12 @@ export const SectionBasics = function SectionBasics() {
                     borderRadius: ['20%', '20%', '50%', '50%', '20%']
                   }}
                 >
-                <img
-                  src={row.image}
-                  alt="..."
-                  className={classes.imgRoundedCircle + ' ' + classes.imgFluid}
-                />
+                  <img
+                    src={row.image}
+                    alt="..."
+                    className={
+                      classes.imgRoundedCircle + ' ' + classes.imgFluid
+                  />
                 </motion.div>
                 <h5>{row.name}</h5>
               </GridItem>
