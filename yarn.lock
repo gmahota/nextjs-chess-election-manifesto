@@ -5585,6 +5585,11 @@ react-event-listener@^0.6.0:
     prop-types "^15.6.0"
     warning "^4.0.1"
 
+react-faq-component@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/react-faq-component/-/react-faq-component-1.2.1.tgz#f22e69a880898b996c51893f21f6a588ddcaa70e"
+  integrity sha512-AfqGTjGx+o32YJ6FPlgguByhvPWcxWbmKiFkhfO+Gg5fsAOU8zpMgdwEYCfpKVAi+CGjos1KFVts72xk48NWqw==
+
 react-is@16.13.1, react-is@^16.7.0, react-is@^16.8.0, react-is@^16.8.1:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"

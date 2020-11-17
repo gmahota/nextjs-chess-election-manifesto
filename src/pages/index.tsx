@@ -14,6 +14,9 @@ import { GridContainer, GridItem } from './../components/Grid'
 import { container } from '../../assets/ts/nextjs-material-kit'
 import { SectionBasics } from './../pages-sections/Components-Sections/SectionBasics'
 import { SectionProgram } from './../pages-sections/Components-Sections/SectionProgram'
+import { SectionFaq } from './../pages-sections/Components-Sections/SectionFaq'
+
+import { Footer } from './../components/Footer'
 
 const useStyles = makeStyles((_: Theme) =>
   createStyles({
@@ -85,7 +88,7 @@ export default function Home({ org, props }) {
   const { ...rest } = props
 
   return (
-    <div>
+    <div id="Home">
       <Head>
         <title>Candidatura FMX</title>
       </Head>
@@ -122,7 +125,9 @@ export default function Home({ org, props }) {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <SectionBasics />
           <SectionProgram />
+          <SectionFaq />
         </div>
+        <Footer />
       </main>
     </div>
   )

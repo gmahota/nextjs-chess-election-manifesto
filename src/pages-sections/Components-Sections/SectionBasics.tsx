@@ -120,7 +120,7 @@ export const SectionBasics = function SectionBasics() {
     },
     {
       name: 'Guimarães Mahota Jr.',
-      position: '2 º Vice-presidente',
+      position: '2º Vice-presidente',
       area: 'DIRECÇÃO',
       image: '/images/team/gui2.png'
     },
@@ -168,7 +168,7 @@ export const SectionBasics = function SectionBasics() {
       name: 'Eugenia Nkutumula',
       position: 'Secretário',
       area: 'Assembleia',
-      image: '/images/team/avatar.png'
+      image: '/images/team/eugenia.png'
     }
   ]
 
