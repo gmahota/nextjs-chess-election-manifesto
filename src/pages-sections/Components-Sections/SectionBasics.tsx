@@ -141,7 +141,7 @@ export const SectionBasics = function SectionBasics() {
       name: 'Silvério Bento',
       position: 'Suplente',
       area: 'DIRECÇÃO',
-      image: '/images/team/avatar.png'
+      image: '/images/team/silverio1.png'
     },
     {
       name: 'Júlio Samiro',
@@ -165,7 +165,7 @@ export const SectionBasics = function SectionBasics() {
       image: '/images/team/avatar.png'
     },
     {
-      name: '',
+      name: 'Eugenia Nkutumula',
       position: 'Secretário',
       area: 'Assembleia',
       image: '/images/team/avatar.png'
