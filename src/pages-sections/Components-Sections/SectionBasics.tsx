@@ -330,12 +330,11 @@ export const SectionBasics = function SectionBasics() {
                     borderRadius: ['20%', '20%', '50%', '50%', '20%']
                   }}
                 >
-                  <img
-                    src={row.image}
-                    alt="..."
-                    className={
-                      classes.imgRoundedCircle + ' ' + classes.imgFluid
-                  />
+                <img
+                  src={row.image}
+                  alt="..."
+                  className={classes.imgRoundedCircle + ' ' + classes.imgFluid}
+                />
                 </motion.div>
                 <h5>{row.name}</h5>
               </GridItem>
@@ -357,12 +356,11 @@ export const SectionBasics = function SectionBasics() {
                     borderRadius: ['20%', '20%', '50%', '50%', '20%']
                   }}
                 >
-                  <img
-                    src={row.image}
-                    alt="..."
-                    className={
-                      classes.imgRoundedCircle + ' ' + classes.imgFluid
-                  />
+                <img
+                  src={row.image}
+                  alt="..."
+                  className={classes.imgRoundedCircle + ' ' + classes.imgFluid}
+                />
                 </motion.div>
                 <h5>{row.name}</h5>
               </GridItem>
@@ -384,12 +382,11 @@ export const SectionBasics = function SectionBasics() {
                     borderRadius: ['20%', '20%', '50%', '50%', '20%']
                   }}
                 >
-                  <img
-                    src={row.image}
-                    alt="..."
-                    className={
-                      classes.imgRoundedCircle + ' ' + classes.imgFluid
-                  />
+                <img
+                  src={row.image}
+                  alt="..."
+                  className={classes.imgRoundedCircle + ' ' + classes.imgFluid}
+                />
                 </motion.div>
                 <h5>{row.name}</h5>
               </GridItem>
@@ -411,12 +408,11 @@ export const SectionBasics = function SectionBasics() {
                     borderRadius: ['20%', '20%', '50%', '50%', '20%']
                   }}
                 >
-                  <img
-                    src={row.image}
-                    alt="..."
-                    className={
-                      classes.imgRoundedCircle + ' ' + classes.imgFluid
-                  />
+                <img
+                  src={row.image}
+                  alt="..."
+                  className={classes.imgRoundedCircle + ' ' + classes.imgFluid}
+                />
                 </motion.div>
                 <h5>{row.name}</h5>
               </GridItem>
