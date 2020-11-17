@@ -203,7 +203,6 @@ export const SectionBasics = function SectionBasics() {
       area: 'CONSELHO Técnico',
       image: '/images/team/avatar.png'
     }
-
   ]
 
   const fmxTeamJuridicional: team[] = [
@@ -336,12 +335,14 @@ export const SectionBasics = function SectionBasics() {
                     alt="..."
                     className={
                       classes.imgRoundedCircle + ' ' + classes.imgFluid
+                    }
                   />
                 </motion.div>
                 <h5>{row.name}</h5>
               </GridItem>
             ))}
           </GridContainer>
+
           <GridContainer />
 
           <div className={classes.title}>
@@ -363,6 +364,7 @@ export const SectionBasics = function SectionBasics() {
                     alt="..."
                     className={
                       classes.imgRoundedCircle + ' ' + classes.imgFluid
+                    }
                   />
                 </motion.div>
                 <h5>{row.name}</h5>
@@ -390,6 +392,7 @@ export const SectionBasics = function SectionBasics() {
                     alt="..."
                     className={
                       classes.imgRoundedCircle + ' ' + classes.imgFluid
+                    }
                   />
                 </motion.div>
                 <h5>{row.name}</h5>
@@ -417,6 +420,7 @@ export const SectionBasics = function SectionBasics() {
                     alt="..."
                     className={
                       classes.imgRoundedCircle + ' ' + classes.imgFluid
+                    }
                   />
                 </motion.div>
                 <h5>{row.name}</h5>
