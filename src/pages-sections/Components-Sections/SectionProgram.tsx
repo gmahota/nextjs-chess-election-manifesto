@@ -152,7 +152,7 @@ export const SectionProgram = function SectionProgram() {
             </AppBar>
             <TabPanel value={value} index={0}>
               <Typography variant="h6" className={classes.h1}>
-                Profissionalização do Xadrez de alta competição
+                PROFISSIONALIZAÇÃO DO XADREZ NACIONAL
               </Typography>
 
               <Typography variant="body1" className={classes.body}>
@@ -189,7 +189,7 @@ export const SectionProgram = function SectionProgram() {
                   </li>
                   <li>
                     Concorrer a organização de Campeonatos africanos financiados
-                    pela FIDE{' '}
+                    pela FIDE
                   </li>
                   <li>
                     Garantir a participação dos melhores atletas da nação em
@@ -201,25 +201,25 @@ export const SectionProgram = function SectionProgram() {
 
             <TabPanel value={value} index={1}>
               <Typography variant="h6" className={classes.h1}>
-                Empoderamento das Associações Provinciais através da criação de
-                fortes Parcerias Público-Privadas
+                EMPODERAMENTO DAS ASSOCIAÇÕES PROVINCIAIS ATRAVÉS DE CRIAÇÃO DE
+                PARCERIAS FORTES COM INSTITUIÇÕES PÚBLICAS E PRIVADAS
               </Typography>
 
               <Typography variant="body1" className={classes.body}>
                 <p>
                   É de grande importância para esta candidatura, promover a
-                  legalizacao das Associações de Xadrez a nível Nacional (o
-                  reconhecimento governamental-autorização dos Governos
+                  legalização das associações de Xadrez a nível nacional (o
+                  reconhecimento governamental, autorização dos Governos
                   Provinciais e a publicação dos Estatutos) bem como a autonomia
                   financeira das mesmas, pois elas são o garante de uma grande
                   massificação e divulgação da modalidade. Entretanto, é
                   necessário que exista proximidade das associações à FMX para
-                  identificar problemas e responsavelmente adequar medidas
-                  solucionar tais carências.
+                  identificar problemas e responsavelmente adequar medidas que
+                  solucionem tais carências.
                 </p>
                 <p>
                   No primeiro ano do nosso mandato pretendemos prestar todo o
-                  auxílio necessário para que as associações sejam bem-sucedidas
+                  auxílio necessário para que as associações sejam bem sucedidas
                   ao longo dos quatro anos do mandato, prestando um apoio
                   profissional e incondicional na execução das suas atividades.
                 </p>
@@ -232,9 +232,29 @@ export const SectionProgram = function SectionProgram() {
 
               <Typography className={classes.body}>
                 <ul className={classes.boolet}>
-                  <li>Reunir periodicamente com as associações</li>
+                  <li>
+                    Reunir periodicamente com as associações provinciais de
+                    xadrez
+                  </li>
+                  <li>
+                    Alocar valores do fundo de promoção disportiva para a
+                    massificação de acordo com o estado de legalização da
+                    associação
+                  </li>
+                  <li>
+                    Alocação de fundos desenvolvimento de xadrez da FIDE às
+                    associações de acordo com os a quantidade de clubes,
+                    escolas, associações distritais através de números concretos
+                    de xadrezistas envolvidos por província apresentados. Quanto
+                    mais a associação movimentar o xadrez mais fundos serão
+                    atribuidos;
+                  </li>
                   <li>
                     Contribuir no desenho de projectos desportivos financiáveis
+                  </li>
+                  <li>
+                    Fornecer apoio técnico, material e orçamental às actividades
+                    das associações
                   </li>
                   <li>
                     Prestar formações em Marketing, empreendedorismo desportivo
@@ -248,7 +268,6 @@ export const SectionProgram = function SectionProgram() {
                     Incentivar as criação de associações distritais e municipais
                     de xadrez
                   </li>
-                  <li>Apresentar trimestralmente uma agenda de atividades</li>
                   <li>
                     Ajudar as associações na promoção de torneios
                     interdistritais e municipais
@@ -260,7 +279,7 @@ export const SectionProgram = function SectionProgram() {
                   </li>
                   <li>
                     Encontrar um patrocinador financeiro local para as
-                    associacoes provinciais de xadrez
+                    associações provinciais de xadrez
                   </li>
                   <li>
                     Criação de representantes regionais para poder dar vasão as
@@ -282,7 +301,7 @@ export const SectionProgram = function SectionProgram() {
               </Typography>
 
               <Typography variant="h6" className={classes.body}>
-                a) Da implantação de xadrez nas escolas e comunidades
+                a) Da implantação de xadrez nas escolas e comunidades:
               </Typography>
 
               <Typography className={classes.body}>
@@ -292,7 +311,7 @@ export const SectionProgram = function SectionProgram() {
                     uma das maiores prioridades da nossa Direcção
                   </li>
                   <li>
-                    A FMX, sob a direccao desta candidatura, vai desenvolver um
+                    A FMX, sob a direcção desta candidatura, vai desenvolver um
                     programa específico em colaboração com o Ministério de
                     Educação e Desenvolvimento Humano para levar o xadrez a
                     todas escolas do país e melhorar qualidade dos Festivais
@@ -309,7 +328,7 @@ export const SectionProgram = function SectionProgram() {
                   </li>
                   <li>
                     Será criada uma gala anual de xadrez onde permitirá garantir
-                    maior visibilidade as nossas figuras do ano.
+                    maior visibilidade as nossas figuras do ano
                   </li>
                 </ul>
               </Typography>
@@ -336,11 +355,16 @@ export const SectionProgram = function SectionProgram() {
                     ministérios e outras instituições o que permitirá ter
                     retorno que ajudará na massidicação
                   </li>
+                  <li>
+                    Criação de parcerias com isntituições que já fazem
+                    massidicação como é o caso da academia de xadrez da matola e
+                    outras instituições a identificar
+                  </li>
                 </ul>
               </Typography>
 
               <Typography variant="h6" className={classes.body}>
-                c) Da Iniciação
+                c) Da Iniciação:
               </Typography>
 
               <Typography className={classes.body}>
@@ -366,16 +390,16 @@ export const SectionProgram = function SectionProgram() {
               <Typography className={classes.body}>
                 <ul className={classes.boolet}>
                   <li>
-                    Campeonatos nacionais em todas as categorias (Nampula;
-                    Inhambane;Niassa;Tete; Gaza; Beira; Chimoio; Maputo)
+                    Campeonatos nacionais em todas as categorias (Nampula; Cabo
+                    Delgado; Inhambane;Niassa;Tete; Gaza;sofala; Manica; Maputo
+                    Cidade e Povíncia de Maputo)
                   </li>
+                  <li>Campeonatos regionais</li>
+                  <li>Introdução de Campeonato Nacional por clubes</li>
+                  <li>Introdução de campeonato de veteranos</li>
                   <li>
-                    Campeonatos nacionais de .... (mimos? Femininos?).em
-                    Vilankulos
-                  </li>
-                  <li>
-                    Campeonato Nacional por clubes na Matola (primeiro ano do
-                    mandato)
+                    Revisão do modelo de provas nacionais que irá permitir maior
+                    rodagem e participação
                   </li>
                 </ul>
               </Typography>
@@ -386,7 +410,18 @@ export const SectionProgram = function SectionProgram() {
 
               <Typography className={classes.body}>
                 <ul className={classes.boolet}>
-                  <li></li>
+                  <li>
+                    Participação nos opens dos paises visinhos com os melhores
+                    atletas de cada uma das regiões
+                  </li>
+                  <li>
+                    Criar link's de escolas privadas com os campeonatos da
+                    região entre escolas
+                  </li>
+                  <li>
+                    Participação em eventos da região com as equipas nacionais
+                    infanto-juvenís
+                  </li>
                 </ul>
               </Typography>
 
@@ -401,21 +436,22 @@ export const SectionProgram = function SectionProgram() {
                     com a Comunicação Social
                   </li>
                   <li>
-                    Abrir umWeb Site da FMX e uma Página no Facebook para
-                    divulgação dos eventos que forem a acontecer a nível das
-                    províncias
+                    AAbrir um Web-Site da FMX e reforçar a Página no Facebook
+                    para divulgação dos eventos que forem a acontecer a nível
+                    das províncias
                   </li>
                   <li>
-                    Organizar a feiras e festivais de xadrez ao longo do ano e
+                    Organizar feiras e festivais de xadrez ao longo do ano e
                     principalmente na semana internacional de xadrez
                   </li>
-                  <li>Realizar exposição de Fotografias</li>
                   <li>Criar um Jornal/revista trimestral de xadrez</li>
-                  <li>Introdução de campeonato de veteranos</li>
                 </ul>
               </Typography>
             </TabPanel>
             <TabPanel value={value} index={3}>
+              <Typography variant="h6" className={classes.h1}>
+                FORMAÇÃO DE ÁRBITROS E TÉCNICOS
+              </Typography>
               <Typography variant="body1" className={classes.body}>
                 <p>
                   A implementação deste plano proporcionará aos promotores de
@@ -436,6 +472,13 @@ export const SectionProgram = function SectionProgram() {
                     Assegurar a participação de membros das associações
                     escolhidos pela FMX (critérios a definir em negociação com
                     as Associações) em cursos de árbitros e treinadores
+                  </li>
+                  <li>
+                    Insentivar a criação de uma comissão de árbitros
+                    independente
+                  </li>
+                  <li>
+                    Partilha de regulamentos actualizados publicados na FIDE
                   </li>
                 </ul>
               </Typography>
@@ -461,9 +504,7 @@ export const SectionProgram = function SectionProgram() {
                   e responsável baseada num sistema de comunicação eficiente,
                   permitindo auditoria e prestação de contas periódicas perante
                   as associações e publicação da prestação de contas no jornal
-                  de maior circulação nacional e outros meios. Criação de um
-                  departamento de negócios que irá ajudar no funcionamento e no
-                  pagamento das contas existentes.
+                  de maior circulação nacional e outros meios.
                 </p>
               </Typography>
 
@@ -474,8 +515,7 @@ export const SectionProgram = function SectionProgram() {
               <Typography className={classes.body}>
                 <p className={classes.boolet}>
                   A Sede da FMX deve transmitir uma imagem digna e atrativa,
-                  para tal estamos prontos para apresentar as seguintes
-                  propostas:
+                  para tal, propomo-nos fazer o seguinte:
                 </p>
                 <ul className={classes.boolet}>
                   <li>
@@ -495,6 +535,36 @@ export const SectionProgram = function SectionProgram() {
                     xadrezistas pelo Centro Social
                   </li>
                   <li>Melhorar as instalações do Centro Social</li>
+                </ul>
+              </Typography>
+
+              <Typography variant="h6" className={classes.body}>
+                c) Criação de um departamento encarregue pela gestão de negócios
+              </Typography>
+
+              <Typography className={classes.body}>
+                <p className={classes.boolet}>
+                  Este departamento será composto por elementos responsáveis
+                  pela planificação estratégica de angariação de fundos para a
+                  Federação nomedamente:
+                </p>
+                <ul className={classes.boolet}>
+                  <li>
+                    Criação de empresas directamente ligadas a FMX que juntos
+                    poderão desenvolver alguma actividade sustentável
+                  </li>
+                  <li>
+                    Gestão do património da FMX na criação de parcerias que
+                    trarão mais rentabilidade
+                  </li>
+                  <li>
+                    Desenho de planos de negócio para desenvolvimento de
+                    actividades financeiras específicas
+                  </li>
+                  <li>
+                    Desenvolver planos de marketing desportivo para a angariação
+                    de fundos
+                  </li>
                 </ul>
               </Typography>
             </TabPanel>
