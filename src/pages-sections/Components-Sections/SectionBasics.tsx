@@ -186,10 +186,10 @@ export const SectionBasics = function SectionBasics() {
       image: '/images/team/avatar.png'
     },
     {
-      name: 'Dionisio Mariamo',
+      name: 'Dionísio Mariamo',
       position: 'Secretário',
       area: 'CONSELHO Técnico',
-      image: '/images/team/dionisio1.png'
+      image: '/images/team/dionisio2.png'
     },
     {
       name: 'Marciano Ombe',
