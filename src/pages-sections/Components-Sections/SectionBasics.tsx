@@ -120,7 +120,7 @@ export const SectionBasics = function SectionBasics() {
     },
     {
       name: 'Guimarães Mahota Jr.',
-      position: '2 ºVice-presidente',
+      position: '2 º Vice-presidente',
       area: 'DIRECÇÃO',
       image: '/images/team/gui2.png'
     },
@@ -189,7 +189,7 @@ export const SectionBasics = function SectionBasics() {
       name: 'Dionisio Mariamo',
       position: 'Secretário',
       area: 'CONSELHO Técnico',
-      image: '/images/team/avatar.png'
+      image: '/images/team/dionisio1.png'
     },
     {
       name: 'Marciano Ombe',
@@ -297,7 +297,6 @@ export const SectionBasics = function SectionBasics() {
           <GridContainer>
             {fmxTeamAssembleia.map(row => (
               <GridItem key={row.name} xs={12} sm={2}>
-                <h4>{row.position}</h4>
                 <motion.div
                   animate={{
                     scale: [1, 2, 2, 1, 1],
@@ -313,6 +312,7 @@ export const SectionBasics = function SectionBasics() {
                   />
                 </motion.div>
                 <h5>{row.name}</h5>
+                <h4>({row.position})</h4>
               </GridItem>
             ))}
           </GridContainer>
@@ -323,7 +323,6 @@ export const SectionBasics = function SectionBasics() {
           <GridContainer>
             {fmxTeamDirecao.map(row => (
               <GridItem key={row.name} xs={12} sm={2}>
-                <h4>{row.position}</h4>
                 <motion.div
                   animate={{
                     scale: [1, 2, 2, 1, 1],
@@ -339,6 +338,7 @@ export const SectionBasics = function SectionBasics() {
                   />
                 </motion.div>
                 <h5>{row.name}</h5>
+                <h4>({row.position})</h4>
               </GridItem>
             ))}
           </GridContainer>
@@ -352,7 +352,6 @@ export const SectionBasics = function SectionBasics() {
           <GridContainer>
             {fmxTeamTecnico.map(row => (
               <GridItem key={row.name} xs={12} sm={2}>
-                <h4>{row.position}</h4>
                 <motion.div
                   animate={{
                     scale: [1, 2, 2, 1, 1],
@@ -368,6 +367,7 @@ export const SectionBasics = function SectionBasics() {
                   />
                 </motion.div>
                 <h5>{row.name}</h5>
+                <h4>({row.position})</h4>
               </GridItem>
             ))}
           </GridContainer>
@@ -380,7 +380,6 @@ export const SectionBasics = function SectionBasics() {
           <GridContainer>
             {fmxTeamJuridicional.map(row => (
               <GridItem key={row.name} xs={12} sm={2}>
-                <h4>{row.position}</h4>
                 <motion.div
                   animate={{
                     scale: [1, 2, 2, 1, 1],
@@ -396,6 +395,7 @@ export const SectionBasics = function SectionBasics() {
                   />
                 </motion.div>
                 <h5>{row.name}</h5>
+                <h4>({row.position})</h4>
               </GridItem>
             ))}
           </GridContainer>
@@ -408,7 +408,6 @@ export const SectionBasics = function SectionBasics() {
           <GridContainer>
             {fmxTeamFiscal.map(row => (
               <GridItem key={row.name} xs={12} sm={2}>
-                <h4>{row.position}</h4>
                 <motion.div
                   animate={{
                     scale: [1, 2, 2, 1, 1],
@@ -424,6 +423,7 @@ export const SectionBasics = function SectionBasics() {
                   />
                 </motion.div>
                 <h5>{row.name}</h5>
+                <h4>({row.position})</h4>
               </GridItem>
             ))}
           </GridContainer>
