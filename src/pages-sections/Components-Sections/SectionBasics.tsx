@@ -128,7 +128,7 @@ export const SectionBasics = function SectionBasics() {
       name: 'Aldo Pinto',
       position: 'Secretário-geral',
       area: 'DIRECÇÃO',
-      image: '/images/team/aldo2.png'
+      image: '/images/team/aldo3.png'
     },
 
     {
@@ -141,7 +141,7 @@ export const SectionBasics = function SectionBasics() {
       name: 'Silvério Bento',
       position: 'Suplente',
       area: 'DIRECÇÃO',
-      image: '/images/team/silverio1.png'
+      image: '/images/team/silverio2.png'
     },
     {
       name: 'Júlio Samiro',
@@ -162,10 +162,10 @@ export const SectionBasics = function SectionBasics() {
       name: 'Michell Nkanda',
       position: 'Vice-presidente',
       area: 'Assembleia',
-      image: '/images/team/avatar.png'
+      image: '/images/team/Michel1.png'
     },
     {
-      name: '',
+      name: 'Gláucia Nhanala',
       position: 'Secretário',
       area: 'Assembleia',
       image: '/images/team/avatar.png'
@@ -183,7 +183,7 @@ export const SectionBasics = function SectionBasics() {
       name: 'Felizardo Massimbe',
       position: 'Vice-presidente',
       area: 'CONSELHO Técnico',
-      image: '/images/team/avatar.png'
+      image: '/images/team/felizardo1.png'
     },
     {
       name: 'Dionísio Mariamo',
@@ -195,13 +195,13 @@ export const SectionBasics = function SectionBasics() {
       name: 'Marciano Ombe',
       position: 'Suplente',
       area: 'CONSELHO Técnico',
-      image: '/images/team/avatar.png'
+      image: '/images/team/marcio1.png'
     },
     {
       name: 'Pedro Ventura',
       position: 'Suplente',
       area: 'CONSELHO Técnico',
-      image: '/images/team/avatar.png'
+      image: '/images/team/ventura1.png'
     }
   ]
 
@@ -222,10 +222,10 @@ export const SectionBasics = function SectionBasics() {
       name: 'Napoleão Viola',
       position: 'Secretário',
       area: 'CONSELHO JURISDICIONAL',
-      image: '/images/team/avatar.png'
+      image: '/images/team/napoleao1.png'
     },
     {
-      name: 'Lúcia',
+      name: 'Melena Sambo',
       position: 'Suplente',
       area: 'CONSELHO JURISDICIONAL',
       image: '/images/team/avatar.png'
