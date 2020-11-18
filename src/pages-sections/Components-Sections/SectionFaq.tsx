@@ -92,13 +92,13 @@ export const SectionFaq = function SectionFaq() {
         title:
           'Como será feito a distribuição do valor do fundo para as associações',
         content:
-          '- No nosso primeiro ano do mandato iremos do 40 % do valor do fundo iremos disponibilizar dedicar uma parte do valor para legalizar associações que não se encontram legais'
+          '- No nosso primeiro ano de mandato iremos dedicar 40% do orçamento para as associações, para legalização e apoio na capacidade de gestão e desenvolvimento de parcerias público-privadas'
       },
       {
         title:
           'As associações que não derem voto de confiança ao elenco serão excluídas?',
         content:
-          '- Iremos trabalhar com todas as associações de igual forma, apoiar e empoderar todas as Associações Provinciais, é prioridade do nosso manifesto.'
+          '- Iremos trabalhar com todas as associações de igual forma, apoiar e empoderar todas as Associações Provinciais, é prioridade do nosso manifesto'
       }
     ]
   }
