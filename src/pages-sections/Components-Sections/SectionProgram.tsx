@@ -436,7 +436,7 @@ export const SectionProgram = function SectionProgram() {
                     com a Comunicação Social
                   </li>
                   <li>
-                    AAbrir um Web-Site da FMX e reforçar a Página no Facebook
+                    Abrir um Web-Site da FMX e reforçar a Página no Facebook
                     para divulgação dos eventos que forem a acontecer a nível
                     das províncias
                   </li>

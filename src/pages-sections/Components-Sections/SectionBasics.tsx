@@ -177,7 +177,7 @@ export const SectionBasics = function SectionBasics() {
       name: 'Emilio Guambe',
       position: 'Presidente',
       area: 'CONSELHO Técnico',
-      image: '/images/team/avatar.png'
+      image: '/images/team/emilio1.png'
     },
     {
       name: 'Felizardo Massimbe',
@@ -249,7 +249,7 @@ export const SectionBasics = function SectionBasics() {
       name: 'Adilson Serrão',
       position: 'Vice-presidente',
       area: 'CONSELHO Fiscal',
-      image: '/images/team/adilson.png'
+      image: '/images/team/adilson2.png'
     },
     {
       name: 'José Machaieie',
@@ -267,7 +267,7 @@ export const SectionBasics = function SectionBasics() {
       name: 'Josefa Mahota',
       position: 'Suplente',
       area: 'CONSELHO Fiscal',
-      image: '/images/team/avatar.png'
+      image: '/images/team/josefa1.png'
     }
   ]
 
