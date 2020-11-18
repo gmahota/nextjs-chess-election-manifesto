@@ -165,10 +165,10 @@ export const SectionBasics = function SectionBasics() {
       image: '/images/team/avatar.png'
     },
     {
-      name: 'Eugenia Nkutumula',
+      name: '',
       position: 'Secretário',
       area: 'Assembleia',
-      image: '/images/team/eugenia.png'
+      image: '/images/team/avatar.png'
     }
   ]
 
