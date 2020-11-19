@@ -147,7 +147,7 @@ export const SectionBasics = function SectionBasics() {
       name: 'Júlio Samiro',
       position: 'Suplente',
       area: 'DIRECÇÃO',
-      image: '/images/team/avatar.png'
+      image: '/images/team/julio1.png'
     }
   ]
 
@@ -168,7 +168,7 @@ export const SectionBasics = function SectionBasics() {
       name: 'Gláucia Nhanala',
       position: 'Secretário',
       area: 'Assembleia',
-      image: '/images/team/avatar.png'
+      image: '/images/team/Glaucia1.png'
     }
   ]
 
@@ -210,7 +210,7 @@ export const SectionBasics = function SectionBasics() {
       name: 'José Lobato',
       position: 'Presidente',
       area: 'CONSELHO JURISDICIONAL',
-      image: '/images/team/avatar.png'
+      image: '/images/team/Lobato2.png'
     },
     {
       name: 'Margarido Sambo',
