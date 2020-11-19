@@ -198,10 +198,10 @@ export const SectionBasics = function SectionBasics() {
       image: '/images/team/marcio1.png'
     },
     {
-      name: '',
+      name: 'Leonardo Nhaule',
       position: 'Suplente',
       area: 'CONSELHO Técnico',
-      image: '/images/team/avatar.png'
+      image: '/images/team/nhaule1.png'
     }
   ]
 
