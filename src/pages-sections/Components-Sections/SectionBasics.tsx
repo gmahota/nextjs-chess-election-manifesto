@@ -198,10 +198,10 @@ export const SectionBasics = function SectionBasics() {
       image: '/images/team/marcio1.png'
     },
     {
-      name: 'Pedro Ventura',
+      name: '',
       position: 'Suplente',
       area: 'CONSELHO Técnico',
-      image: '/images/team/ventura1.png'
+      image: '/images/team/avatar.png'
     }
   ]
 
@@ -216,19 +216,19 @@ export const SectionBasics = function SectionBasics() {
       name: 'Margarido Sambo',
       position: 'Vice-presidente',
       area: 'CONSELHO JURISDICIONAL',
-      image: '/images/team/avatar.png'
+      image: '/images/team/Margarido1.png'
     },
     {
       name: 'Napoleão Viola',
       position: 'Secretário',
       area: 'CONSELHO JURISDICIONAL',
-      image: '/images/team/napoleao1.png'
+      image: '/images/team/napoleao2.png'
     },
     {
       name: 'Melena Sambo',
       position: 'Suplente',
       area: 'CONSELHO JURISDICIONAL',
-      image: '/images/team/avatar.png'
+      image: '/images/team/Melena1.png'
     },
     {
       name: '',
@@ -261,7 +261,7 @@ export const SectionBasics = function SectionBasics() {
       name: 'Mahomed Rafique',
       position: 'Suplente',
       area: 'CONSELHO Fiscal',
-      image: '/images/team/avatar.png'
+      image: '/images/team/rafick1.png'
     },
     {
       name: 'Josefa Mahota',
@@ -275,7 +275,7 @@ export const SectionBasics = function SectionBasics() {
     <div id="Elenco" className={classes.sections}>
       <div className={classes.container}>
         <div className={classes.title}>
-          <h2>Composição da Lista aos Órgãos Sociais da FMX</h2>
+          <h2>Lista do Candidato Milton Botão</h2>
         </div>
 
         <div>
