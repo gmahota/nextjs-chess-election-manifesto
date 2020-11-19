@@ -135,7 +135,7 @@ export const SectionBasics = function SectionBasics() {
       name: 'Cidália Mazembe',
       position: 'Tesoureiro',
       area: 'DIRECÇÃO',
-      image: '/images/team/cidalia2.png'
+      image: '/images/team/cidalia1.png'
     },
     {
       name: 'Silvério Bento',
@@ -243,7 +243,7 @@ export const SectionBasics = function SectionBasics() {
       name: 'Felicia Chipande',
       position: 'Presidente',
       area: 'CONSELHO Fiscal',
-      image: '/images/team/avatar.png'
+      image: '/images/team/felicia1.png'
     },
     {
       name: 'Adilson Serrão',
