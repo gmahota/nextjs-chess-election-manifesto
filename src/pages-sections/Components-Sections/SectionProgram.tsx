@@ -390,9 +390,9 @@ export const SectionProgram = function SectionProgram() {
               <Typography className={classes.body}>
                 <ul className={classes.boolet}>
                   <li>
-                    Campeonatos nacionais em todas as categorias (Nampula; Cabo
-                    Delgado; Inhambane;Niassa;Tete; Gaza;sofala; Manica; Maputo
-                    Cidade e Povíncia de Maputo)
+                    Campeonatos nacionais em todas as categorias (Zambézia;
+                    Nampula; Cabo Delgado; Inhambane;Niassa;Tete; Gaza;sofala;
+                    Manica; Maputo Cidade e Povíncia de Maputo)
                   </li>
                   <li>Campeonatos regionais</li>
                   <li>Introdução de Campeonato Nacional por clubes</li>
