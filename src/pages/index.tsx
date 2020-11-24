@@ -71,10 +71,13 @@ const useStyles = makeStyles((_: Theme) =>
     },
     img: {
       position: 'relative',
-      width: '50%',
+      width: '30%',
       display: 'flex',
-      justifyContent: 'center',
-      alignItems: 'bottom'
+      justifyContent: 'left',
+      alignItems: 'top',
+      '@media (max-width: 830px)': {
+        width: '100%'
+      }
     },
     laddingText: {
       display: 'flex',
@@ -103,21 +106,11 @@ export default function Home({ org, props }) {
             color: 'white'
           }}
         />
-        <Parallax image="/images/bg4.jpg">
+        <Parallax image="/images/bg5.jpg">
           <div className={classes.container}>
             <GridContainer>
               <GridItem>
-                <div className={classes.laddingText}>
-                  <div className={classes.brand}>
-                    <h1 className={classes.title}>
-                      LISTA LIDERADA POR MILTON BOTÃO.
-                    </h1>
-                    <h3 className={classes.subtitle}>
-                      CAMINHANDO JUNTOS EM PROL DO DESENVOVIMENTO DO XADREZ
-                      NACIONAL.
-                    </h3>
-                  </div>
-                </div>
+                <img src="/images/bg6.jpg" className={classes.img} />
               </GridItem>
             </GridContainer>
           </div>
