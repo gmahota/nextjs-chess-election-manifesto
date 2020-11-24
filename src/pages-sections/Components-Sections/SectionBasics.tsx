@@ -231,10 +231,10 @@ export const SectionBasics = function SectionBasics() {
       image: '/images/team/Melena1.png'
     },
     {
-      name: '',
+      name: 'Lídia Ulisses',
       position: 'Suplente',
       area: 'CONSELHO JURISDICIONAL',
-      image: '/images/team/avatar.png'
+      image: '/images/team/lidia1.png'
     }
   ]
 

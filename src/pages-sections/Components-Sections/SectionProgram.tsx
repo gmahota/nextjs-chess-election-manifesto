@@ -530,11 +530,6 @@ export const SectionProgram = function SectionProgram() {
                     Apetrechar em mobiliário de escritório, instalação de meios
                     de comunicação e pessoal administrativo
                   </li>
-                  <li>
-                    Melhorar a qualidade da prestação dos serviços sociais aos
-                    xadrezistas pelo Centro Social
-                  </li>
-                  <li>Melhorar as instalações do Centro Social</li>
                 </ul>
               </Typography>
 
